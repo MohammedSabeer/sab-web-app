@@ -1,4 +1,4 @@
-# AstroFlow - Logistics & Manufacturing Website Template
+# Tech Logic Vibe - Software Development Company Website
 
 A modern, professional Astro.js template for logistics, manufacturing, and supply chain companies. Built with React, Tailwind CSS, and TypeScript.
 
@@ -45,8 +45,8 @@ A modern, professional Astro.js template for logistics, manufacturing, and suppl
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/yourusername/astroflow.git
-cd astroflow
+git clone https://github.com/yourusername/tech-logic-vibe.git
+cd tech-logic-vibe
 ```
 
 2. Install dependencies:

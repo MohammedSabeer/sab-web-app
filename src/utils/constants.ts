@@ -1,44 +1,50 @@
 // Constants used throughout the application
 
 export const INDUSTRIES = [
-  { id: 'automotive', name: 'Automotive', icon: 'Car' },
-  { id: 'electronics', name: 'Electronics', icon: 'Cpu' },
-  { id: 'food-beverage', name: 'Food & Beverage', icon: 'Utensils' },
-  { id: 'pharmaceuticals', name: 'Pharmaceuticals', icon: 'Pill' },
   { id: 'retail', name: 'Retail & E-commerce', icon: 'ShoppingBag' },
-  { id: 'industrial', name: 'Industrial Manufacturing', icon: 'Factory' },
+  { id: 'healthcare', name: 'Healthcare', icon: 'Heart' },
+  { id: 'finance', name: 'Finance & Banking', icon: 'DollarSign' },
+  { id: 'education', name: 'Education', icon: 'GraduationCap' },
+  { id: 'hospitality', name: 'Hospitality', icon: 'Building' },
+  { id: 'logistics', name: 'Logistics & Transport', icon: 'Truck' },
 ] as const;
 
 export const CAPABILITIES = [
   {
-    id: 'warehousing',
-    title: 'Warehousing & Distribution',
-    description: 'State-of-the-art warehousing solutions with advanced inventory management.',
-    icon: 'Warehouse',
+    id: 'ai-solutions',
+    title: 'AI Solutions',
+    description: 'Intelligent automation, machine learning models, and AI-powered applications for modern businesses.',
+    icon: 'Brain',
   },
   {
-    id: 'transportation',
-    title: 'Transportation & Logistics',
-    description: 'Efficient transportation networks ensuring timely delivery.',
-    icon: 'Truck',
+    id: 'ecommerce-mobile',
+    title: 'E-Commerce Mobile App',
+    description: 'Feature-rich mobile commerce solutions with seamless payment integration and user experience.',
+    icon: 'ShoppingCart',
   },
   {
-    id: 'manufacturing',
-    title: 'Manufacturing Support',
-    description: 'Comprehensive manufacturing support services.',
-    icon: 'Cog',
+    id: 'android-apps',
+    title: 'Android Apps',
+    description: 'Native Android applications optimized for performance and user engagement.',
+    icon: 'Smartphone',
   },
   {
-    id: 'supply-chain',
-    title: 'Supply Chain Management',
-    description: 'End-to-end supply chain optimization and management.',
-    icon: 'Network',
+    id: 'ios-apps',
+    title: 'iOS Apps',
+    description: 'Premium iOS applications designed for the Apple ecosystem with elegant interfaces.',
+    icon: 'Apple',
   },
   {
-    id: 'technology',
-    title: 'Technology Solutions',
-    description: 'Cutting-edge technology for logistics and manufacturing.',
-    icon: 'Code',
+    id: 'multi-vendor',
+    title: 'Multi Vendor Application',
+    description: 'Comprehensive marketplace platforms enabling multiple vendors to sell products and services.',
+    icon: 'Store',
+  },
+  {
+    id: 'web-apps',
+    title: 'High Resolution Website & Web Apps',
+    description: 'Responsive, high-performance web applications and websites with stunning visuals.',
+    icon: 'Globe',
   },
 ] as const;
 

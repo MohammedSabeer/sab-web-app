@@ -1,17 +1,17 @@
 // Site configuration
 export const SITE = {
-  title: 'AstroFlow',
-  description: 'Leading provider of optimized logistics and manufacturing solutions with state-of-the-art facilities and industry expertise.',
+  title: 'TechSolutions',
+  description: 'Leading software development company delivering cutting-edge mobile apps, web applications, and AI solutions tailored to your business needs.',
   url: 'https://yourdomain.com',
-  author: 'AstroFlow',
+  author: 'TechSolutions',
 } as const;
 
 export const NAVIGATION = [
   { name: 'Home', href: '/' },
-  { name: 'Capabilities', href: '/capabilities' },
+  { name: 'Products', href: '/capabilities' },
   { name: 'Use Cases', href: '/use-cases' },
-  { name: 'Facilities', href: '/facilities' },
-  { name: 'Request Quote', href: '/rfq' },
+  { name: 'Our Work', href: '/facilities' },
+  { name: 'Get Started', href: '/rfq' },
   { name: 'Documentation', href: '/documentation' },
 ] as const;
 

@@ -1,5 +1,5 @@
 import { motion } from 'motion/react';
-import { Warehouse, Truck, Package, BarChart3, Shield, Headphones } from 'lucide-react';
+import { Brain, ShoppingCart, Smartphone, Apple, Store, Globe } from 'lucide-react';
 
 import warehouseImg from '@assets/photo-1553413077-190dd305871c.jpg';
 import truckImg from '@assets/photo-1601584115197-04ecc0da31d7.jpg';
@@ -10,40 +10,40 @@ import headphonesImg from '@assets/photo-1486312338219-ce68d2c6f44d.jpg';
 
 const features = [
   {
-    icon: Warehouse,
-    title: 'Advanced Warehousing',
-    description: 'Climate-controlled facilities with automated inventory systems and 24/7 security.',
-    image: warehouseImg,
-  },
-  {
-    icon: Truck,
-    title: 'Fast Transportation',
-    description: 'Multi-modal logistics network ensuring rapid delivery across all destinations.',
-    image: truckImg,
-  },
-  {
-    icon: Package,
-    title: 'Quality Manufacturing',
-    description: 'ISO-certified production with precision engineering and quality control.',
-    image: packageImg,
-  },
-  {
-    icon: BarChart3,
-    title: 'Real-Time Analytics',
-    description: 'Complete supply chain visibility with advanced tracking and reporting.',
+    icon: Brain,
+    title: 'AI Solutions',
+    description: 'Intelligent automation and machine learning models that drive business efficiency and innovation.',
     image: barChart3Img,
   },
   {
-    icon: Shield,
-    title: 'Secure Operations',
-    description: 'Industry-leading security protocols protecting your valuable assets.',
+    icon: ShoppingCart,
+    title: 'E-Commerce Mobile App',
+    description: 'Feature-rich mobile commerce platforms with seamless payment integration and user experience.',
+    image: packageImg,
+  },
+  {
+    icon: Smartphone,
+    title: 'Android Apps',
+    description: 'Native Android applications optimized for performance, scalability, and user engagement.',
+    image: headphonesImg,
+  },
+  {
+    icon: Apple,
+    title: 'iOS Apps',
+    description: 'Premium iOS applications designed for the Apple ecosystem with elegant, intuitive interfaces.',
     image: shieldImg,
   },
   {
-    icon: Headphones,
-    title: '24/7 Support',
-    description: 'Dedicated teams available around the clock to ensure seamless operations.',
-    image: headphonesImg,
+    icon: Store,
+    title: 'Multi Vendor Application',
+    description: 'Comprehensive marketplace platforms enabling multiple vendors to manage products and sales.',
+    image: truckImg,
+  },
+  {
+    icon: Globe,
+    title: 'High Resolution Website & Web Apps',
+    description: 'Responsive, high-performance web applications with stunning visuals and seamless functionality.',
+    image: warehouseImg,
   },
 ];
 

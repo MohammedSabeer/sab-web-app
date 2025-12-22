@@ -1,6 +1,6 @@
 import * as Label from '@radix-ui/react-label';
 import * as Checkbox from '@radix-ui/react-checkbox';
-import { Check, User, Building2, Briefcase, Warehouse, Factory, Truck, Network, Wrench, Cpu, Calendar, Package } from 'lucide-react';
+import { Check, User, Building2, Briefcase, Brain, Smartphone, Globe, Code, Wrench, Cpu, Calendar, Package } from 'lucide-react';
 
 export default function RFQForm() {
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
@@ -163,12 +163,12 @@ export default function RFQForm() {
             </Label.Root>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               {[
-                { id: 'warehousing', label: 'Warehousing & Storage', icon: Warehouse },
-                { id: 'manufacturing', label: 'Manufacturing Services', icon: Factory },
-                { id: 'transportation', label: 'Transportation & Distribution', icon: Truck },
-                { id: 'supply-chain', label: 'Supply Chain Management', icon: Network },
-                { id: 'value-added', label: 'Value-Added Services', icon: Wrench },
-                { id: 'technology', label: 'Technology Integration', icon: Cpu },
+                { id: 'ai-solutions', label: 'AI Solutions & ML', icon: Brain },
+                { id: 'mobile-dev', label: 'Mobile Development', icon: Smartphone },
+                { id: 'web-apps', label: 'Web Applications', icon: Globe },
+                { id: 'custom-software', label: 'Custom Software', icon: Code },
+                { id: 'consulting', label: 'Technical Consulting', icon: Wrench },
+                { id: 'cloud-integration', label: 'Cloud Integration', icon: Cpu },
               ].map((service) => {
                 const IconComponent = service.icon;
                 return (
