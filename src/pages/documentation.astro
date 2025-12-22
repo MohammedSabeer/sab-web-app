@@ -4,6 +4,7 @@ import Section from '../components/ui/Section.astro';
 import Card from '../components/ui/Card.astro';
 import ImageReveal from '../components/react/ImageReveal';
 import { Image } from 'astro:assets';
+import { SEO_KEYWORDS } from '@config/site';
 
 import gettingStartedImg from '@assets/photo-1451187580459-43490279c0fa.jpg';
 import onboardingChecklistImg from '@assets/photo-1486406146926-c627a92ad1ab.jpg';
@@ -136,9 +137,15 @@ const faqs = [
     answer: 'Yes, our mobile application is available for both iOS and Android devices. You can download it from the App Store or Google Play Store. The app provides full access to all documentation and features offline reading capabilities.'
   }
 ];
+
+const seoData = {
+  title: 'Documentation - Software Development Guides & Resources',
+  description: 'Comprehensive technical documentation, API guides, integration resources, and development best practices. Access our SDK documentation, tutorials, and support materials.',
+  keywords: SEO_KEYWORDS.documentation,
+};
 ---
 
-<BaseLayout title="Documentation - Resources & Guides">
+<BaseLayout {...seoData}>
   <!-- Hero Section with Professional Background -->
   <section class="relative h-[70vh] min-h-[500px] flex items-center overflow-hidden">
     <div class="absolute inset-0">

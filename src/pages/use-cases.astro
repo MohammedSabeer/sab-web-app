@@ -6,6 +6,7 @@ import TestimonialCard from '@components/ui/TestimonialCard.astro';
 import UseCaseTabs from '@components/react/UseCaseTabs';
 import StatsCards from '@components/react/StatsCards';
 import { Image } from 'astro:assets';
+import { SEO_KEYWORDS } from '@config/site';
 
 import ecommerceImg from '@assets/photo-1607082349566-187342175e2f.jpg';
 import healthcareImg from '@assets/photo-1587854692152-cbe660dbde88.jpg';
@@ -20,6 +21,12 @@ import testimonial3Img from '@assets/photo-1507003211169-0a1dd7228f2d.jpg';
 
 import heroBgImg from '@assets/photo-1551288049-bebda4e38f71.jpg';
 import ctaBgImg from '@assets/photo-1553413077-190dd305871c.jpg';
+
+const seoData = {
+  title: 'Software Development Case Studies & Success Stories',
+  description: 'Real-world software development projects and success stories. Explore our e-commerce, healthcare, fintech, and educational platform implementations. See how we transform businesses with technology.',
+  keywords: SEO_KEYWORDS.useCases,
+};
 
 const useCases:any[] = [
   {
@@ -127,7 +134,7 @@ const testimonials:any[] = [
 ];
 ---
 
-<BaseLayout title="Use Cases - Industry Solutions">
+<BaseLayout {...seoData}>
   <!-- Hero Section -->
   <section class="relative h-[70vh] min-h-[500px] flex items-center overflow-hidden">
     <!-- Background Image with Overlay -->

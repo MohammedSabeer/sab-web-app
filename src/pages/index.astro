@@ -9,9 +9,16 @@ import TechnologyInnovation from '../components/home/TechnologyInnovation.astro'
 import ProcessWorkflow from '../components/home/ProcessWorkflow.astro';
 import Testimonials from '../components/home/Testimonials.astro';
 import PremiumCTA from '../components/home/PremiumCTA.astro';
+import { SEO_KEYWORDS } from '@config/site';
+
+const seoData = {
+  title: 'Tech Logic Vibe - Custom Software Development Company',
+  description: 'Transform your business with cutting-edge software solutions. We specialize in AI development, mobile apps, e-commerce platforms, and custom web applications. 200+ projects delivered with 99% client satisfaction.',
+  keywords: SEO_KEYWORDS.home,
+};
 ---
 
-<BaseLayout>
+<BaseLayout {...seoData}>
   <PremiumHero />
   <ServiceHighlights />
   <ImageGrid />

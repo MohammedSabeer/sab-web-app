@@ -1,0 +1,13 @@
+# robots.txt for Tech Logic Vibe
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://techlogicvibe.com/sitemap.xml
+
+# Crawl-delay for polite bots
+Crawl-delay: 1
+
+# Disallow admin or private paths if any
+# Disallow: /admin/
+# Disallow: /private/
