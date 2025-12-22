@@ -4,6 +4,7 @@ export const SITE = {
   description: 'Leading software development company delivering cutting-edge mobile apps, web applications, AI solutions, and e-commerce platforms. Transform your business with our expert development team.',
   url: 'https://techlogicvibe.com',
   author: 'Tech Logic Vibe',
+  founders: 'Sabeer & Rukzana',
   keywords: 'software development, mobile app development, web development, AI solutions, machine learning, e-commerce development, custom software, iOS apps, Android apps, React Native, cloud solutions',
   ogImage: '/og-image.svg',
   twitterHandle: '@techlogicvibe',
@@ -65,6 +66,18 @@ export const SCHEMA_ORG = {
   ],
   foundingDate: '2020',
   slogan: 'Innovative Solutions, Logical Execution',
+  founder: [
+    {
+      '@type': 'Person',
+      name: 'Sabeer',
+      jobTitle: 'Co-Founder & CEO',
+    },
+    {
+      '@type': 'Person',
+      name: 'Rukzana',
+      jobTitle: 'Co-Founder & CTO',
+    },
+  ],
   areaServed: {
     '@type': 'Country',
     name: 'Worldwide',
