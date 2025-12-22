@@ -1,0 +1,137 @@
+<svg width="2070" height="1380" viewBox="0 0 2070 1380" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="heroMainGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f172a;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#1e293b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#334155;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="heroAccent1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#14b8a6;stop-opacity:0.8" />
+    </linearGradient>
+    <linearGradient id="heroAccent2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8b5cf6;stop-opacity:0.6" />
+      <stop offset="100%" style="stop-color:#ec4899;stop-opacity:0.6" />
+    </linearGradient>
+    <radialGradient id="heroGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#60a5fa;stop-opacity:0.4" />
+      <stop offset="100%" style="stop-color:#60a5fa;stop-opacity:0" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Base Background -->
+  <rect width="2070" height="1380" fill="url(#heroMainGrad)"/>
+  
+  <!-- Grid Pattern -->
+  <g opacity="0.05">
+    <defs>
+      <pattern id="grid" width="60" height="60" patternUnits="userSpaceOnUse">
+        <path d="M 60 0 L 0 0 0 60" fill="none" stroke="#60a5fa" stroke-width="1"/>
+      </pattern>
+    </defs>
+    <rect width="2070" height="1380" fill="url(#grid)"/>
+  </g>
+  
+  <!-- Large Glowing Orbs -->
+  <circle cx="300" cy="300" r="400" fill="url(#heroGlow)">
+    <animate attributeName="r" values="400;420;400" dur="8s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="1700" cy="900" r="500" fill="url(#heroGlow)">
+    <animate attributeName="r" values="500;520;500" dur="10s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="1000" cy="1100" r="350" fill="url(#heroGlow)">
+    <animate attributeName="r" values="350;370;350" dur="7s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- Floating Tech Elements -->
+  <g opacity="0.15">
+    <!-- Code Brackets -->
+    <text x="150" y="250" font-family="monospace" font-size="180" font-weight="bold" fill="#3b82f6">&lt;</text>
+    <text x="1850" y="1200" font-family="monospace" font-size="180" font-weight="bold" fill="#14b8a6">/&gt;</text>
+    
+    <!-- Curly Braces -->
+    <text x="1700" y="400" font-family="monospace" font-size="150" font-weight="bold" fill="#8b5cf6">{</text>
+    <text x="200" y="1150" font-family="monospace" font-size="150" font-weight="bold" fill="#ec4899">}</text>
+  </g>
+  
+  <!-- Abstract Geometric Shapes -->
+  <g opacity="0.1">
+    <!-- Hexagons -->
+    <polygon points="600,200 650,230 650,290 600,320 550,290 550,230" fill="#60a5fa"/>
+    <polygon points="1400,800 1450,830 1450,890 1400,920 1350,890 1350,830" fill="#14b8a6"/>
+    <polygon points="1100,300 1150,330 1150,390 1100,420 1050,390 1050,330" fill="#8b5cf6"/>
+    
+    <!-- Triangles -->
+    <polygon points="800,900 900,900 850,800" fill="#ec4899"/>
+    <polygon points="1600,500 1700,500 1650,400" fill="#f59e0b"/>
+  </g>
+  
+  <!-- Digital Circuit Lines -->
+  <g stroke="#3b82f6" stroke-width="2" fill="none" opacity="0.2">
+    <path d="M100,500 L300,500 L300,700 L500,700">
+      <animate attributeName="stroke-dasharray" values="0,1000;1000,0" dur="3s" repeatCount="indefinite"/>
+    </path>
+    <path d="M1900,300 L1700,300 L1700,500 L1500,500">
+      <animate attributeName="stroke-dasharray" values="0,1000;1000,0" dur="4s" repeatCount="indefinite"/>
+    </path>
+    <path d="M1000,100 L1000,300 L1200,300">
+      <animate attributeName="stroke-dasharray" values="0,1000;1000,0" dur="3.5s" repeatCount="indefinite"/>
+    </path>
+  </g>
+  
+  <!-- Floating Particles -->
+  <g>
+    <circle cx="400" cy="600" r="4" fill="#60a5fa" opacity="0.6">
+      <animate attributeName="cy" values="600;200;600" dur="12s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.6;0.8;0.6" dur="12s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="800" cy="1000" r="4" fill="#14b8a6" opacity="0.6">
+      <animate attributeName="cy" values="1000;400;1000" dur="15s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.6;0.8;0.6" dur="15s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1200" cy="800" r="4" fill="#8b5cf6" opacity="0.6">
+      <animate attributeName="cy" values="800;300;800" dur="10s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.6;0.8;0.6" dur="10s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1600" cy="600" r="4" fill="#ec4899" opacity="0.6">
+      <animate attributeName="cy" values="600;200;600" dur="13s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.6;0.8;0.6" dur="13s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="500" cy="300" r="3" fill="#f59e0b" opacity="0.5">
+      <animate attributeName="cy" values="300;900;300" dur="11s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.5;0.7;0.5" dur="11s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1400" cy="1100" r="3" fill="#10b981" opacity="0.5">
+      <animate attributeName="cy" values="1100;500;1100" dur="14s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.5;0.7;0.5" dur="14s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  
+  <!-- Central Focus Area (lighter for content) -->
+  <ellipse cx="700" cy="690" rx="600" ry="400" fill="#1e293b" opacity="0.3"/>
+  
+  <!-- Abstract Network Nodes -->
+  <g opacity="0.12">
+    <circle cx="350" cy="450" r="20" fill="#3b82f6"/>
+    <circle cx="500" cy="550" r="15" fill="#14b8a6"/>
+    <circle cx="650" cy="480" r="18" fill="#8b5cf6"/>
+    <circle cx="1500" cy="700" r="20" fill="#ec4899"/>
+    <circle cx="1350" cy="600" r="15" fill="#f59e0b"/>
+    <circle cx="1650" cy="650" r="18" fill="#10b981"/>
+    
+    <line x1="350" y1="450" x2="500" y2="550" stroke="#60a5fa" stroke-width="1"/>
+    <line x1="500" y1="550" x2="650" y2="480" stroke="#60a5fa" stroke-width="1"/>
+    <line x1="1500" y1="700" x2="1350" y2="600" stroke="#60a5fa" stroke-width="1"/>
+    <line x1="1350" y1="600" x2="1650" y2="650" stroke="#60a5fa" stroke-width="1"/>
+  </g>
+  
+  <!-- Subtle Light Rays -->
+  <g opacity="0.05">
+    <polygon points="1035,0 1000,1380 970,1380 1005,0" fill="url(#heroAccent1)"/>
+    <polygon points="535,0 500,1380 470,1380 505,0" fill="url(#heroAccent2)"/>
+    <polygon points="1535,0 1500,1380 1470,1380 1505,0" fill="url(#heroAccent1)"/>
+  </g>
+  
+  <!-- Bottom Gradient Overlay for Text Readability -->
+  <rect y="1000" width="2070" height="380" fill="url(#heroMainGrad)" opacity="0.4"/>
+</svg>
