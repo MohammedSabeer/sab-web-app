@@ -1,16 +1,91 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
-const pageTitle = 'Refund Policy';
+const pageTitle = 'Refund & Cancellation Policy';
 ---
 <BaseLayout title={pageTitle}>
-  <h1>Refund and Cancellation Policy</h1>
-  <p>This refund and cancellation policy outlines how you can cancel or seek a refund for a product/service that you have purchased through the Platform. Under this policy:</p>
-  <ol>
-    <li>Cancellations will only be considered if the request is made within 5 days of placing the order. However, cancellation requests may not be entertained if the orders have been communicated to such sellers/merchant(s) listed on the Platform and they have initiated the process of shipping them, or the product is out for delivery. In such an event, you may choose to reject the product at the doorstep.</li>
-    <li>Tech Logic Vibe does not accept cancellation requests for perishable items like flowers, eatables, etc. However, the refund/replacement can be made if the user establishes that the quality of the product delivered is not good.</li>
-    <li>In case of receipt of damaged or defective items, please report to our customer service team. The request would be entertained once the seller/merchant listed on the Platform, has checked and determined the same at its own end. This should be reported within 5 days of receipt of products.</li>
-    <li>In case you feel that the product received is not as shown on the site or as per your expectations, you must bring it to the notice of our customer service within 5 days of receiving the product. The customer service team after looking into your complaint will take an appropriate decision.</li>
-    <li>In case of complaints regarding the products that come with a warranty from the manufacturers, please refer the issue to them.</li>
-    <li>In case of any refunds approved by Tech Logic Vibe, it will take 5 days for the refund to be processed to you.</li>
-  </ol>
+  <div class="bg-slate-50 min-h-screen py-12">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="bg-white shadow-sm rounded-2xl p-8 sm:p-12">
+        <h1 class="text-3xl font-bold text-slate-900 mb-2">Refund &amp; Cancellation Policy</h1>
+        <p class="text-sm text-slate-500 mb-10">Last updated: February 21, 2026</p>
+
+        <div class="space-y-8 text-slate-600 leading-relaxed">
+
+          <section>
+            <h2 class="text-xl font-semibold text-slate-800 mb-3">Overview</h2>
+            <p>SABI TECH provides professional software development services, technical consultation, and digital solutions. All payments made to SABI TECH are for services rendered — including but not limited to discovery meetings, requirement analysis sessions, software design, development, testing, and delivery. This policy outlines the conditions under which refunds or cancellations may be requested and processed.</p>
+          </section>
+
+          <section>
+            <h2 class="text-xl font-semibold text-slate-800 mb-3">1. Consultation &amp; Meeting Fees</h2>
+            <p class="mb-3">SABI TECH charges a fee for professional consultation sessions, discovery workshops, and technical advisory meetings. The following terms apply:</p>
+            <ul class="list-disc list-outside ml-5 space-y-2">
+              <li>Consultation fees are <strong class="text-slate-700">non-refundable</strong> once the session has been conducted, as the service is considered fully delivered at the time of the meeting.</li>
+              <li>If you cancel a scheduled consultation session at least <strong class="text-slate-700">48 hours in advance</strong>, you are eligible for a full refund or a session rescheduling at no extra charge.</li>
+              <li>Cancellations made less than 48 hours before the scheduled session will not be eligible for a refund, as preparation and resource allocation have already been committed.</li>
+              <li>In the event SABI TECH cancels or reschedules a session without adequate prior notice, a full refund will be issued within 5–7 business days.</li>
+            </ul>
+          </section>
+
+          <section>
+            <h2 class="text-xl font-semibold text-slate-800 mb-3">2. Software Development Project Fees</h2>
+            <p class="mb-3">Software development projects at SABI TECH are typically structured with milestone-based or advance payments. The following refund terms apply:</p>
+            <ul class="list-disc list-outside ml-5 space-y-2">
+              <li><strong class="text-slate-700">Before Work Commencement:</strong> If you cancel a project before any development work has started, you are entitled to a full refund of any advance payment, less any consultation or scoping fees already charged.</li>
+              <li><strong class="text-slate-700">Partial Completion:</strong> If a project is cancelled after work has commenced, refunds will be calculated proportionally based on the work completed at the time of cancellation. Completed milestones and delivered outputs are non-refundable.</li>
+              <li><strong class="text-slate-700">Completed Milestones:</strong> Payments made against completed and delivered milestones are <strong class="text-slate-700">non-refundable</strong>, as those deliverables have been provided and accepted.</li>
+              <li><strong class="text-slate-700">Fully Completed Projects:</strong> Once a project has been fully delivered and handed over, the total project fee is non-refundable.</li>
+            </ul>
+          </section>
+
+          <section>
+            <h2 class="text-xl font-semibold text-slate-800 mb-3">3. Cancellation Requests</h2>
+            <p class="mb-3">To request a cancellation or initiate a refund, the client must:</p>
+            <ul class="list-disc list-outside ml-5 space-y-2">
+              <li>Submit a written request to <a href="mailto:info@techlogicvibe.com" class="text-blue-600 hover:underline">info@techlogicvibe.com</a> with the subject line <em>"Cancellation Request – [Project/Service Name]"</em>.</li>
+              <li>Include the invoice number, payment reference, and reason for cancellation.</li>
+              <li>All cancellation requests will be acknowledged within 2 business days and reviewed within 5 business days.</li>
+            </ul>
+          </section>
+
+          <section>
+            <h2 class="text-xl font-semibold text-slate-800 mb-3">4. Refund Processing</h2>
+            <ul class="list-disc list-outside ml-5 space-y-2">
+              <li>Approved refunds will be processed within <strong class="text-slate-700">7–10 business days</strong> from the date of approval.</li>
+              <li>Refunds will be credited back to the original payment source (bank account, UPI, or card) used at the time of payment.</li>
+              <li>SABI TECH is not responsible for delays caused by banking or payment gateway processing timelines once the refund has been initiated from our end.</li>
+            </ul>
+          </section>
+
+          <section>
+            <h2 class="text-xl font-semibold text-slate-800 mb-3">5. Non-Refundable Charges</h2>
+            <p class="mb-3">The following are strictly non-refundable under any circumstances:</p>
+            <ul class="list-disc list-outside ml-5 space-y-2">
+              <li>Fees for consultation/discovery sessions that have already been conducted.</li>
+              <li>Payments for completed and delivered software modules, features, or services.</li>
+              <li>Any third-party costs incurred on behalf of the client (e.g., cloud hosting, domain registration, API subscriptions, licensing fees).</li>
+              <li>Rush or priority service fees.</li>
+            </ul>
+          </section>
+
+          <section>
+            <h2 class="text-xl font-semibold text-slate-800 mb-3">6. Disputes &amp; Escalation</h2>
+            <p>If you are dissatisfied with a service or disagree with a refund decision, you may escalate the matter by writing to our Grievance Officer at <a href="mailto:info@techlogicvibe.com" class="text-blue-600 hover:underline">info@techlogicvibe.com</a>. We are committed to resolving all disputes fairly and in a timely manner. Unresolved disputes shall be subject to the jurisdiction of courts in Coimbatore, Tamil Nadu, India.</p>
+          </section>
+
+          <section class="bg-slate-50 rounded-xl p-6 border border-slate-100">
+            <h2 class="text-xl font-semibold text-slate-800 mb-4">Contact for Refund &amp; Cancellation Queries</h2>
+            <div class="space-y-2 text-sm">
+              <p><span class="font-medium text-slate-700">Company:</span> SABI TECH</p>
+              <p><span class="font-medium text-slate-700">Email:</span> <a href="mailto:info@techlogicvibe.com" class="text-blue-600 hover:underline">info@techlogicvibe.com</a></p>
+              <p><span class="font-medium text-slate-700">Phone:</span> <a href="tel:+917200650707" class="text-blue-600 hover:underline">+91 7200650707</a></p>
+              <p><span class="font-medium text-slate-700">Address:</span> Rose Avenue, Coimbatore, Tamil Nadu, India</p>
+              <p><span class="font-medium text-slate-700">Business Hours:</span> Monday – Friday, 9:00 AM – 6:00 PM IST</p>
+            </div>
+          </section>
+
+        </div>
+      </div>
+    </div>
+  </div>
 </BaseLayout>

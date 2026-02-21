@@ -4,13 +4,14 @@ export const SITE = {
   description: 'Leading software development company delivering cutting-edge mobile apps, web applications, AI solutions, and e-commerce platforms. Transform your business with our expert development team.',
   url: 'https://techlogicvibe.com',
   author: 'Tech Logic Vibe',
+  legalBusinessName: 'SABI TECH',
   founders: 'Sabeer & Rukzana',
   keywords: 'software development, mobile app development, web development, AI solutions, machine learning, e-commerce development, custom software, iOS apps, Android apps, React Native, cloud solutions',
   ogImage: '/og-image.svg',
   twitterHandle: '@techlogicvibe',
   email: 'info@techlogicvibe.com',
   phone: '+91 7200650707',
-  address: 'Innovative Tech Hub, Digital District',
+  address: 'Rose Avenue, Coimbatore, Tamil Nadu, India',
   foundingYear: '2020',
   companyType: 'Software Development Company',
 } as const;
@@ -22,6 +23,8 @@ export const NAVIGATION = [
   { name: 'Our Work', href: '/facilities' },
   { name: 'Get Started', href: '/rfq' },
   { name: 'Documentation', href: '/documentation' },
+  { name: 'About Us', href: '/about' },
+  { name: 'Contact', href: '/contact' },
 ] as const;
 
 export const SOCIAL_LINKS = {
@@ -46,8 +49,8 @@ export const SEO_KEYWORDS = {
 export const SCHEMA_ORG = {
   '@context': 'https://schema.org',
   '@type': 'SoftwareCompany',
-  name: 'Tech Logic Vibe',
-  alternateName: 'TechLogicVibe',
+  name: 'SABI TECH',
+  alternateName: 'Tech Logic Vibe',
   url: 'https://techlogicvibe.com',
   logo: 'https://techlogicvibe.com/logo.svg',
   description: 'Leading software development company specializing in AI solutions, mobile apps, web applications, and e-commerce platforms.',
@@ -55,7 +58,9 @@ export const SCHEMA_ORG = {
   telephone: '+917200650707',
   address: {
     '@type': 'PostalAddress',
-    addressLocality: 'Digital District',
+    streetAddress: 'Rose Avenue',
+    addressLocality: 'Coimbatore',
+    addressRegion: 'Tamil Nadu',
     addressCountry: 'IN',
   },
   sameAs: [

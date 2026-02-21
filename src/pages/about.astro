@@ -1,0 +1,166 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { SITE } from '@config/site';
+
+const seoData = {
+  title: 'About Us - SABI TECH',
+  description: 'Learn about SABI TECH — a software development company delivering cutting-edge mobile apps, web applications, AI solutions, and e-commerce platforms. Meet our founders and team.',
+};
+---
+
+<BaseLayout {...seoData}>
+  <!-- Hero Section -->
+  <section class="bg-linear-to-br from-slate-900 via-blue-950 to-slate-900 text-white py-20">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <div class="inline-flex items-center px-4 py-2 mb-6 bg-blue-600/20 border border-blue-500/30 text-blue-300 text-sm font-semibold rounded-full">
+        About SABI TECH
+      </div>
+      <h1 class="text-4xl md:text-5xl font-bold mb-6 leading-tight">
+        Building the Future of
+        <span class="text-transparent bg-clip-text bg-linear-to-r from-blue-400 to-teal-400"> Digital Solutions</span>
+      </h1>
+      <p class="text-lg text-slate-300 max-w-2xl mx-auto leading-relaxed">
+        We are a passionate team of developers, designers, and strategists committed to transforming businesses through innovative technology.
+      </p>
+    </div>
+  </section>
+
+  <!-- Who We Are -->
+  <section class="py-16 bg-white">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+        <div>
+          <h2 class="text-3xl font-bold text-slate-900 mb-4">Who We Are</h2>
+          <div class="w-12 h-1 bg-linear-to-r from-blue-600 to-teal-500 rounded mb-6"></div>
+          <p class="text-slate-600 leading-relaxed mb-4">
+            SABI TECH is a forward-thinking software development company founded with the mission of delivering high-quality, scalable, and user-centric digital products. We specialise in building mobile applications, web platforms, AI-powered solutions, and multi-vendor e-commerce ecosystems.
+          </p>
+          <p class="text-slate-600 leading-relaxed mb-4">
+            Our team combines deep technical expertise with a strong product mindset — ensuring every solution we build is not just functional, but exceptional. We partner closely with our clients to understand their goals and deliver technology that drives real business growth.
+          </p>
+          <p class="text-slate-600 leading-relaxed">
+            Operating under the brand <strong class="text-slate-800">Tech Logic Vibe</strong>, SABI TECH serves clients across India and globally, crafting tailor-made digital experiences that stand out.
+          </p>
+        </div>
+        <div class="grid grid-cols-2 gap-6">
+          <div class="bg-blue-50 rounded-2xl p-6 text-center">
+            <div class="text-4xl font-bold text-blue-600 mb-2">5+</div>
+            <div class="text-sm font-medium text-slate-600">Years of Experience</div>
+          </div>
+          <div class="bg-teal-50 rounded-2xl p-6 text-center">
+            <div class="text-4xl font-bold text-teal-600 mb-2">50+</div>
+            <div class="text-sm font-medium text-slate-600">Projects Delivered</div>
+          </div>
+          <div class="bg-purple-50 rounded-2xl p-6 text-center">
+            <div class="text-4xl font-bold text-purple-600 mb-2">30+</div>
+            <div class="text-sm font-medium text-slate-600">Happy Clients</div>
+          </div>
+          <div class="bg-orange-50 rounded-2xl p-6 text-center">
+            <div class="text-4xl font-bold text-orange-600 mb-2">6</div>
+            <div class="text-sm font-medium text-slate-600">Core Services</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Mission & Vision -->
+  <section class="py-16 bg-slate-50">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-12">
+        <h2 class="text-3xl font-bold text-slate-900 mb-4">Our Mission &amp; Vision</h2>
+        <div class="w-12 h-1 bg-linear-to-r from-blue-600 to-teal-500 rounded mx-auto"></div>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div class="bg-white rounded-2xl p-8 shadow-sm border border-slate-100">
+          <div class="w-12 h-12 bg-blue-100 rounded-xl flex items-center justify-center mb-4">
+            <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+            </svg>
+          </div>
+          <h3 class="text-xl font-semibold text-slate-800 mb-3">Our Mission</h3>
+          <p class="text-slate-600 leading-relaxed">
+            To empower businesses of all sizes with innovative, reliable, and affordable software solutions that accelerate growth, streamline operations, and create meaningful digital experiences for their customers.
+          </p>
+        </div>
+        <div class="bg-white rounded-2xl p-8 shadow-sm border border-slate-100">
+          <div class="w-12 h-12 bg-teal-100 rounded-xl flex items-center justify-center mb-4">
+            <svg class="w-6 h-6 text-teal-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" /><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+            </svg>
+          </div>
+          <h3 class="text-xl font-semibold text-slate-800 mb-3">Our Vision</h3>
+          <p class="text-slate-600 leading-relaxed">
+            To become a globally recognised technology partner known for delivering cutting-edge, AI-driven digital products that set industry benchmarks in quality, performance, and user experience.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- What We Do -->
+  <section class="py-16 bg-white">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-12">
+        <h2 class="text-3xl font-bold text-slate-900 mb-4">What We Do</h2>
+        <div class="w-12 h-1 bg-linear-to-r from-blue-600 to-teal-500 rounded mx-auto mb-4"></div>
+        <p class="text-slate-600 max-w-2xl mx-auto">We offer a comprehensive suite of software services tailored to modern business needs.</p>
+      </div>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        {[
+          { title: 'AI Solutions', desc: 'Intelligent automation, ML models, and AI-powered applications.', color: 'blue' },
+          { title: 'E-Commerce Mobile Apps', desc: 'Feature-rich mobile commerce with seamless payment integration.', color: 'teal' },
+          { title: 'Android & iOS Apps', desc: 'Native mobile applications optimised for performance and engagement.', color: 'purple' },
+          { title: 'Multi-Vendor Platforms', desc: 'Comprehensive marketplace platforms for multiple sellers.', color: 'orange' },
+          { title: 'Web Applications', desc: 'Responsive, high-performance web apps and websites.', color: 'green' },
+          { title: 'Custom Software', desc: 'Bespoke software solutions built to your exact specifications.', color: 'rose' },
+        ].map((service) => (
+          <div class={`rounded-2xl p-6 bg-${service.color}-50 border border-${service.color}-100`}>
+            <h3 class={`font-semibold text-${service.color}-800 mb-2`}>{service.title}</h3>
+            <p class="text-sm text-slate-600 leading-relaxed">{service.desc}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Founders -->
+  <section class="py-16 bg-slate-50">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-12">
+        <h2 class="text-3xl font-bold text-slate-900 mb-4">Meet the Founders</h2>
+        <div class="w-12 h-1 bg-linear-to-r from-blue-600 to-teal-500 rounded mx-auto"></div>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-2xl mx-auto">
+        <div class="bg-white rounded-2xl p-8 shadow-sm border border-slate-100 text-center">
+          <div class="w-20 h-20 bg-linear-to-br from-blue-500 to-blue-700 rounded-full flex items-center justify-center text-white text-2xl font-bold mx-auto mb-4">S</div>
+          <h3 class="text-xl font-semibold text-slate-800">Sabeer</h3>
+          <p class="text-blue-600 font-medium text-sm mb-3">Co-Founder &amp; CEO</p>
+          <p class="text-slate-500 text-sm leading-relaxed">Visionary leader driving the product strategy and business growth of SABI TECH.</p>
+        </div>
+        <div class="bg-white rounded-2xl p-8 shadow-sm border border-slate-100 text-center">
+          <div class="w-20 h-20 bg-linear-to-br from-teal-500 to-teal-700 rounded-full flex items-center justify-center text-white text-2xl font-bold mx-auto mb-4">R</div>
+          <h3 class="text-xl font-semibold text-slate-800">Rukzana</h3>
+          <p class="text-teal-600 font-medium text-sm mb-3">Co-Founder &amp; CTO</p>
+          <p class="text-slate-500 text-sm leading-relaxed">Technology architect overseeing engineering excellence and technical innovation.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="py-16 bg-linear-to-r from-blue-600 to-teal-600 text-white">
+    <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <h2 class="text-3xl font-bold mb-4">Ready to Build Something Great?</h2>
+      <p class="text-blue-100 mb-8 text-lg">Let's discuss your project and turn your ideas into reality.</p>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <a href="/rfq" class="inline-flex items-center justify-center px-8 py-3 text-base font-semibold text-blue-600 bg-white hover:bg-blue-50 rounded-lg shadow-md transition-all">
+          Request a Quote
+        </a>
+        <a href="/contact" class="inline-flex items-center justify-center px-8 py-3 text-base font-semibold text-white border-2 border-white/50 hover:border-white hover:bg-white/10 rounded-lg transition-all">
+          Contact Us
+        </a>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
