@@ -2,10 +2,10 @@
 export const SITE = {
   title: 'Tech Logic Vibe - Custom Software Development Company',
   description: 'Leading software development company delivering cutting-edge mobile apps, web applications, AI solutions, and e-commerce platforms. Transform your business with our expert development team.',
-  url: 'https://techlogicvibe.com',
+  url: 'https://www.techlogicvibe.com',
   author: 'Tech Logic Vibe',
   legalBusinessName: 'SABI TECH',
-  founders: 'Sabeer & Rukzana',
+  founders: 'Rukzana',
   keywords: 'software development, mobile app development, web development, AI solutions, machine learning, e-commerce development, custom software, iOS apps, Android apps, React Native, cloud solutions',
   ogImage: '/og-image.svg',
   twitterHandle: '@techlogicvibe',
@@ -74,13 +74,8 @@ export const SCHEMA_ORG = {
   founder: [
     {
       '@type': 'Person',
-      name: 'Sabeer',
-      jobTitle: 'Co-Founder & CEO',
-    },
-    {
-      '@type': 'Person',
       name: 'Rukzana',
-      jobTitle: 'Co-Founder & CTO',
+      jobTitle: 'Co-Founder & CEO',
     },
   ],
   areaServed: {
